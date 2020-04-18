@@ -7,6 +7,15 @@ a {
   font-family: "helvetica", sans-serif;
   text-align: center;
 }
+a:link {
+  color: #9ccaff;
+}
+a:visited {
+  color: #d9b2ff;
+}
+a:hover {
+  color: white;
+}
 h1 span {
   display: block;
 }
