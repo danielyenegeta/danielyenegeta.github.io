@@ -1,0 +1,16 @@
+h1, p{
+  color: white;
+  font-family: "helvetica", sans-serif;
+  text-align: center;
+}
+a {
+  font-family: "helvetica", sans-serif;
+  text-align: center;
+}
+h1 span {
+  display: block;
+}
+body {
+  background-color: black;
+  text-align: center;
+}
