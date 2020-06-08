@@ -3,22 +3,33 @@
 <head>
   <title>&deg;</title>
   <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $("#title").fadeIn(1000);
+      $("#desc").fadeIn(2000);
+      $("#projects").fadeIn(3000);
+      $("#resume").fadeIn(4000);
+      $("#github").fadeIn(5000);
+      $("#linkedin").fadeIn(6000);
+    });
+  </script>
 </head>
 <body>
-  <h1>daniel <span>yenegeta</span></h1>
-  <p>
-    university of virginia alumnus.
-  </p>
-  <div id="resumediv">
-    <p>resume ( 
-      <a href=resume.pdf>open in browser</a> &bull; 
-      <a href="resume.doc" download="DanielYenegetaResume">download</a> )
-   </p>
-    <p>
-    <a href="https://github.com/danielyenegeta/">github</a>
-    &bull; 
-    <a href="https://www.linkedin.com/in/daniel-yenegeta/">linkedin</a>
-    </p>
-  </div>
+  <section id="main">
+    <div id="contents">
+      <h1 id="title" style="display: none;">daniel yenegeta</h1>
+      <p id="desc" style="display: none;">
+        university of virginia alumnus.
+      </p>
+      <div id="links">
+        <a id="projects" href="projects.html" style="display: none;">projects</a>
+        <a id="resume" href="resume.html" style="display: none;">resume</a>
+        <a id="github" href="https://github.com/danielyenegeta/" style="display: none;">github</a>
+        <a id="linkedin" href="https://www.linkedin.com/in/daniel-yenegeta/" style="display: none;">linkedin</a>
+      </div>
+    </div>
+  </section>
+  <embed src="resume.pdf#toolbar=0&navpanes=0&scrollbar=0" width="500" height="500" />
 </body>
 </html>

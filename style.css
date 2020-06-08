@@ -1,11 +1,8 @@
 h1, p{
   color: white;
-  font-family: "helvetica", sans-serif;
-  text-align: center;
 }
-a {
-  font-family: "helvetica", sans-serif;
-  text-align: center;
+h1 {
+  font-size: 200%;
 }
 a:link {
   color: #9ccaff;
@@ -16,10 +13,25 @@ a:visited {
 a:hover {
   color: white;
 }
-h1 span {
-  display: block;
-}
 body {
   background-color: black;
-  text-align: center;
+}
+#main {
+  padding-left: 40px;
+  padding-top: 40px;
+  font-family: "helvetica", sans-serif;
+}
+#contents {
+  display: inline;
+}
+#desc {
+  display: inline;
+}
+#title {
+  display: inline;
+}
+#links {
+  display: inline;
+  float: right;
+  padding-right: 40px;
 }
