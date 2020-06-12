@@ -17,21 +17,22 @@ body {
   background-color: black;
 }
 #main {
-  padding-left: 40px;
   padding-top: 40px;
+  text-align: center;
   font-family: "helvetica", sans-serif;
 }
-#contents {
-  display: inline;
+#resume {
+  text-align: center;
 }
-#desc {
+#contents {
   display: inline;
 }
 #title {
   display: inline;
 }
-#links {
-  display: inline;
-  float: right;
-  padding-right: 40px;
+#outerContainer #mainContainer div.toolbar {
+  display: none;
+}
+#outerContainer #mainContainer #viewerContainer {
+  top: 0;
 }
